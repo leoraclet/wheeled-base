@@ -1,10 +1,15 @@
+<div align="center"><img style="width: 300px" src="./assets/omniwheel.png" /></div>
 <h1 align="center">4-Omniwheels Base</h1>
 
 <div align="center">
 
 ![license](https://img.shields.io/github/license/leoraclet/wheeled-base)
 ![language](https://img.shields.io/github/languages/top/leoraclet/wheeled-base)
-![lastcommit](https://img.shields.io/github/last-commit/leoraclet/wheeled-base)
+![lastcommit](https://img.shields.io/github/last-commit/leoraclet/wheeled-base) <br>
+![Language](https://img.shields.io/badge/Language-C-1d50de)
+![Libraries](https://img.shields.io/badge/Framework-STM32-fa8925)
+![Size](https://img.shields.io/badge/Size-10Mo-f12222)
+![OpenSource](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
 
 </div>
 
@@ -63,6 +68,22 @@ Robotics](https://www.coupederobotique.fr) in 2025.
 > [!WARNING]
 >
 > STM32CubeIDE builds the project only for the specified target (MCU)
+
+To build this project, first install the
+[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) on your system.
+
+Then, you can clone this repo
+
+```bash
+git clone https://github.com/leoraclet/wheeled-base
+```
+
+And open / import the project into STM32CubeIDE
+
+---
+
+If you want to build for another target, then create a new project for the wanted target and just
+copy the source files of this project, with the corresponding headers, into your project.
 
 ## 📜 License
 
